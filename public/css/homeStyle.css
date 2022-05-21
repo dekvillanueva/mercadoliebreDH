@@ -1,0 +1,88 @@
+
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+*/
+
+
+.header-container{
+    background-color: #EAC926;
+}
+
+.burger-menu button{
+    background-color: #1259c3;
+    color: white;
+}
+
+.card-product-image img{
+    width: 100%;
+}
+
+/* GENERAL SETTING */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+}
+
+main{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+p{   /* Cuerpo de texto */
+    font-size: 12px;
+}
+
+h2{   /* Titulares */
+    font-size: 24px;
+}
+
+#id-precios{
+    font-size: 18px;
+    font-style: normal;
+}
+
+#id-descripciones{
+    font-size: 16px;
+    font-style: normal;
+}
+
+#id-descuentos{
+    font-size: 16px;
+    font-style: normal;
+}
+
+#id-sections-footer{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+#id-icons-footer{
+    margin: auto;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
