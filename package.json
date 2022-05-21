@@ -1,0 +1,22 @@
+{
+  "name": "mercadoliebredh",
+  "version": "1.0.0",
+  "description": "Trabajo práctico html-css curso FullStack Digital House",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dekvillanueva/mercadoliebreDH.git"
+  },
+  "author": "@dekvillanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dekvillanueva/mercadoliebreDH/issues"
+  },
+  "homepage": "https://github.com/dekvillanueva/mercadoliebreDH#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
