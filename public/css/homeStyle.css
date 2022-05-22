@@ -1,4 +1,3 @@
-
 /*
 Amarillo: #EAC926;
 Azul: #03264C;
@@ -16,73 +15,148 @@ Descripciones: 16px
 */
 
 
-.header-container{
+.header-container {
     background-color: #EAC926;
+    width: 100%;
+    height: fit-content;
+    margin:auto;
+    text-align: center;
 }
 
-.burger-menu button{
+.nav-bar{
+    display: none;
+}
+
+.burger-menu button {
     background-color: #1259c3;
+    width: 40px;
+    height: 40px;
     color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.card-product-image img{
+.main-container {
+    width: 90%;
+    margin: auto;
+}
+
+.card-product {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.card-product-description {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.card-product-image img {
     width: 100%;
 }
 
 /* GENERAL SETTING */
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 16px;
     font-family: roboto, sans-serif;
+    background-color: #ebebeb;
 }
 
-main{
+main {
     margin-top: 20px;
 }
 
-footer{
+footer {
     margin-top: 20px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-p{   /* Cuerpo de texto */
+a{
+    text-decoration: none;
+}
+
+p {
+    /* Cuerpo de texto */
     font-size: 12px;
 }
 
-h2{   /* Titulares */
+h2 {
+    /* Titulares */
     font-size: 24px;
+    color: #666;
 }
 
-#id-precios{
+#id-precios {
     font-size: 18px;
     font-style: normal;
 }
 
-#id-descripciones{
+#id-descripciones {
     font-size: 16px;
     font-style: normal;
 }
 
-#id-descuentos{
+#id-descuentos {
     font-size: 16px;
     font-style: normal;
+    color: #39b54a;
 }
 
-#id-sections-footer{
+#id-sections-footer {
     margin: auto;
     width: 80%;
     text-align: center;
 }
 
-#id-icons-footer{
+#id-icons-footer {
     margin: auto;
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3;
+}
+
+#id-card-product-send {
+    color: #39b54a;
+}
+
+/* MEDIAS QUERIES */
+
+/* MOBILE PHONE */
+@media (min-width:320px) {
+
+}
+
+/* TABLETS */
+@media (min-width: 361px) {
+    .card-product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .nav-bar{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    .card-product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .nav-bar{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
 }
